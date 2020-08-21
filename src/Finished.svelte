@@ -23,7 +23,7 @@
     Like the Quiz?
     <br />
     Leave a star.
-    <a href="https://www.github.com">
+    <a href="https://github.com/madhav-p/quiz-app">
       <i class="fab fa-github" />
     </a>
   </p>
