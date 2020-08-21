@@ -93,7 +93,9 @@
         Submit
       </button>
     {:else if Qno == 10}
-      <button class="finish">Finish Quiz</button>
+      <button class="finish" on:click={() => dispatch('finish')}>
+        Finish Quiz
+      </button>
     {:else}
       <button class="next" on:click={() => dispatch('gotoNextQues')}>
         Next
