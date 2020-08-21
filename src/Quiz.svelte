@@ -33,7 +33,7 @@
 </script>
 
 {#if finished}
-  <Finished />
+  <Finished {corrAnswers} />
 {:else}
   <Header Qno={currQuesNo} on:exit {corrAnswers} />
   {#each Quiz as Q, i}
